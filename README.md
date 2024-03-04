@@ -2,7 +2,8 @@
 I have created a simple neural network for predicting the hand-written digits using the famous MNIST dataset. 
 I have used Pytorch to implement the code.
 
-#Firstly we start by importing all the dependencies
+Firstly we start by importing all the dependencies
+'''
 pip install torchvision
 import torch
 import torch.nn as nn
@@ -10,6 +11,7 @@ import torch.optim as optim
 import torchvision
 import torchvision.transforms as transforms
 from torch.utils.data import DataLoader
+'''
 
 class SimpleNN(nn.Module):
     def __init__(self):

@@ -3,6 +3,7 @@ I have created a simple neural network for predicting the hand-written digits us
 I have used Pytorch to implement the code.
 
 Firstly we start by importing all the dependencies
+
 '''
 pip install torchvision
 import torch
